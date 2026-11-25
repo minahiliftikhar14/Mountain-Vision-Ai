@@ -17,21 +17,6 @@ This project generates and verifies synthetic mountain road data—pairing dashc
 ## Environment Setup (macOS)
 
 1. Navigate to the project directory and activate the virtual environment:
-   ```bash
-   source venv/bin/activate
-   Ensure pip is available and install required dependencies (using binary wheels for faster, reliable setup on macOS):
 
-'''bash
-python3 -m ensurepip --upgrade
-python3 -m pip install --upgrade pip
-python3 -m pip install --only-binary=:all: numpy pandas matplotlib opencv-python
-'''
-2. ##Usage
-Run the dataset verification script before starting model training:
-
-Bash
-python3 check.py
-Once verification passes, run your training script:
-
-Bash
-python3 train.py
+```bash
+source venv/bin/activate
