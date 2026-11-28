@@ -1,5 +1,12 @@
 # 🏔️ Mountain Vision AI
 ### Synthetic Vision-Guided Autonomous Navigation & MDP Control Framework
+
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org/)
+[![Blender 3D](https://img.shields.io/badge/Blender-3D%20Synthetic%20Data-F5792A?logo=blender&logoColor=white)](https://www.blender.org/)
+[![Decision Engine](https://img.shields.io/badge/Decision%20Core-MDP%20%26%20Bellman%20Optimality-00A86B)](#)
+[![Status](https://img.shields.io/badge/Status-Active%20Development-informational)](#)
+
 **Mountain Vision AI** is a multimodal autonomous navigation and supervisory control prototype engineered specifically for complex, elevation-varying mountain road terrains. Combining a custom **Blender 3D synthetic mountain dataset**, an **OpenCV road-perception pipeline**, **lookahead bend prediction**, and a **Markov Decision Process (MDP) solved via the Bellman Optimality Equation**, the system computes safe, context-aware recommendations for **steering angle**, **target speed**, and **gear selection**.
 
 ---
