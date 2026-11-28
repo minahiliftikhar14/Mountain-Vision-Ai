@@ -141,11 +141,3 @@ Mountain-Vision-Ai/
 
 ---
 
-## 🗺️ Roadmap
-
-- [x] **Phase 1:** Blender 3D mountain road environment modeling & multimodal dataset export (`287` synchronized frames + geometry CSV)
-- [x] **Phase 2 (Component 1):** Data ingestion, frame verification, `NaN` straight-road handling, and local simulated GPS projection
-- [x] **Phase 3 (Component 2):** Adaptive ROI cropping, HSV road/border masking, Gaussian blur, Canny edge extraction, and visual curvature metrics
-- [ ] **Phase 4 (Component 3):** Lookahead upcoming bend & angle predictor with supervisory driver alerts
-- [ ] **Phase 5 (Components 4 & 5):** MDP state/action/reward formulation & Bellman Optimality solver for steering, gear, and speed
-- [ ] **Phase 6 (Component 6):** End-to-end Matplotlib telemetry plots & Sim2Real edge-dashcam deployment exploration
